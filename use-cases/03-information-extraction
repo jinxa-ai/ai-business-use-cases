@@ -1,0 +1,36 @@
+# Use Case — Information Extraction from Emails & Documents
+
+## Business Context
+Teams receive contracts, emails, invoices, and operational documents containing key information needed for CRM, billing, or service delivery.
+
+## Problem Statement
+Critical data is trapped in unstructured content. Manual extraction is time-consuming and error-prone, and it slows down downstream processes.
+
+## Why AI?
+AI can extract structured fields from unstructured text (names, dates, amounts, requirements) and produce reliable summaries when properly constrained and validated.
+
+## Proposed AI Approach (High-Level)
+- Structured extraction into a fixed schema (JSON fields)
+- Deterministic prompts with strict formatting requirements
+- Validation layer (required fields, regex checks, cross-field consistency)
+- Human review for low-confidence outputs or sensitive fields
+
+## Expected Benefits
+- Faster processing and reduced manual effort
+- More consistent data capture
+- Better downstream automation (CRM updates, invoicing, workflow triggers)
+
+## Risks & Limitations
+- Inconsistent outputs without strict schemas
+- Errors on edge cases (complex formatting, ambiguous phrasing)
+- Security risks if sensitive documents are processed without controls
+
+## Cost & Governance Considerations
+- Always define a fixed output schema + validation rules
+- Keep a trace of source text snippets used for extraction
+- Decide what data is allowed to be processed (PII boundaries)
+
+## When AI Is Not the Right Solution
+If documents are already standardized (e.g., structured forms) and simple rule-based parsing covers most cases.
+
+_This use case follows the principles defined in the AI-Consulting-Foundations repository._
