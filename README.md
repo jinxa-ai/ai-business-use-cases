@@ -49,3 +49,14 @@ Each use case:
 - starts from a real operational problem
 - evaluates AI relevance pragmatically
 - highlights risks, costs and governance considerations
+
+## How This Repository Fits into the Overall Approach
+
+This repository is the practical extension of a broader AI consulting framework.
+
+Foundational principles, methodology and governance considerations are documented here:  https://github.com/jinxa-ai/AI-Consulting-Foundations
+
+Each use case presented in this repository:
+- follows the same decision framework
+- applies the same risk and governance principles
+- intentionally avoids technology-first reasoning
