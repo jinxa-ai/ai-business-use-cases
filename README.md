@@ -12,6 +12,14 @@ Each use case is structured to:
 
 How to Read These Use Cases
 
+## Index
+- 01 — AI-Assisted Lead Qualification
+- 02 — Customer Support Triage & Routing
+- 03 — Information Extraction from Emails & Documents
+- 04 — AI-Assisted Decision Support (Synthesis & Comparison)
+- 05 — Internal Knowledge Assistant (Controlled RAG)
+
+
 Each use case follows the same structure:
 	1.	Business context
 	2.	Problem statement
