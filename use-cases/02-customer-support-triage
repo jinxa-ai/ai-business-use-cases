@@ -33,4 +33,46 @@ AI can classify and route requests based on intent and context in unstructured t
 ## When AI Is Not the Right Solution
 Low ticket volume, or when a strict form-based intake already captures structured fields reliably.
 
+##Success KPIs
+
+The success of this use case should be measured using a limited set of operational and quality indicators:
+	•	First Response Time (FRT)
+Reduction compared to baseline manual triage.
+	•	SLA Compliance Rate
+Percentage of tickets handled within contractual response times.
+	•	Routing Accuracy
+Share of tickets correctly routed on first assignment.
+	•	Backlog Volume
+Evolution of open tickets over time.
+	•	Manual Override Rate
+Percentage of AI decisions overridden by human agents (early warning signal).
+
+Important: KPIs must be reviewed weekly during the first rollout phase.
+
+##Risk Assessment
+
+| Risk                   | Description                                                 | Level |
+|------------------------|-------------------------------------------------------------|-------|
+| Misclassification      | Incorrect routing leading to delays or customer frustration |   🟠  |
+| Over-automation        | Excessive trust in AI decisions without human validation    |   🟠  |
+| Hallucinated responses | AI generating incorrect replies if used autonomously        |   🔴  |
+| Cost drift             | Uncontrolled inference usage during peak volumes            |   🟠  |
+
+Mitigation principles:
+	•	Human-in-the-loop as default
+	•	Confidence thresholds before automation
+	•	Clear escalation paths
+
+##Data Prerequisites Checklist
+
+Before implementing this use case, the following conditions should be validated:
+	•	Historical support tickets available (minimum 3–6 months)
+	•	Clear labeling of ticket categories and priorities
+	•	Defined SLA rules and escalation logic
+	•	Identified data owners (support, ops)
+	•	Sensitive data handling rules documented
+	•	Consent and compliance validated (PII, GDPR)
+
+If more than two items are unchecked, AI implementation should be postponed.
+
 _This use case follows the principles defined in the AI-Consulting-Foundations repository._
