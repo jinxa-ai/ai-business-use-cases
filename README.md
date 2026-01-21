@@ -41,3 +41,11 @@ This repository may evolve with:
 	•	anonymized client-like scenarios
 	•	lightweight PoC illustrations
 	•	cost control and monitoring patterns
+	# Use Cases
+
+This folder contains AI use cases documented with a business-first approach.
+
+Each use case:
+- starts from a real operational problem
+- evaluates AI relevance pragmatically
+- highlights risks, costs and governance considerations
