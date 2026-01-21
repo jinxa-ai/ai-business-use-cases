@@ -1,0 +1,36 @@
+# Use Case — Internal Knowledge Assistant (Controlled RAG)
+
+## Business Context
+Internal knowledge is scattered across Notion, Google Drive, Slack, wikis, and onboarding documents. Teams repeatedly ask the same questions.
+
+## Problem Statement
+Information retrieval is inefficient. People depend on specific individuals to find answers, slowing execution and creating operational risk.
+
+## Why AI?
+A controlled assistant can retrieve relevant information from a curated knowledge base and provide answers with citations, improving autonomy and consistency.
+
+## Proposed AI Approach (High-Level)
+- Curate a knowledge corpus (scope control)
+- Retrieval-Augmented Generation (RAG) with source citations
+- Content freshness rules (review cadence, ownership)
+- Guardrails: refuse to answer outside scope; escalate to human
+
+## Expected Benefits
+- Reduced repetitive questions
+- Faster onboarding and execution
+- More consistent internal guidance
+
+## Risks & Limitations
+- Outdated content leading to wrong guidance
+- Security exposure if access control is misconfigured
+- “Confident but wrong” answers if citations are not enforced
+
+## Cost & Governance Considerations
+- Strong access control and role-based permissions
+- Mandatory citations + “source of truth” links
+- Regular knowledge maintenance process (owners, review schedule)
+
+## When AI Is Not the Right Solution
+If the organization lacks an authoritative knowledge base or ownership model; in that case, fix documentation governance first.
+
+_This use case follows the principles defined in the AI-Consulting-Foundations repository._
