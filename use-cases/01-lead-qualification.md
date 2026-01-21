@@ -30,4 +30,6 @@ Natural language analysis enables early detection of intent, urgency and fit bas
 - Human override mechanisms
 
 ## When AI Is Not the Right Solution
-Low lead volume or already structured qualification forms.
+Low lead volume or already structured qualification forms.`
+
+_This use case follows the principles defined in the AI-Consulting-Foundations repository._
